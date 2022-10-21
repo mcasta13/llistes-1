@@ -1,18 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    encarregat = 0
+    for (let index = 0; index <= lista_de_texto.length - 1; index++) {
+        basic.showString("" + (lista_de_texto[index]))
+        basic.pause(100)
+    }
 })
-let encarregat = 0
-let A1 = 0
-let A2 = 0
-let A3 = 0
-let A4 = 0
-let disponibles = [
-A1,
-A2,
-A3,
-A4
-]
-let ocupats: number[] = []
+let lista_de_texto: string[] = []
+lista_de_texto = ["pepe", "anna", "juan "]
 basic.forever(function () {
 	
 })
