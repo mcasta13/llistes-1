@@ -4,6 +4,13 @@ input.onButtonPressed(Button.A, function () {
         basic.pause(100)
     }
 })
+input.onButtonPressed(Button.B, function () {
+    basic.showString("" + (lista_de_texto[0]))
+    basic.pause(100)
+    basic.showString("" + (lista_de_texto[1]))
+    basic.pause(100)
+    basic.showString("" + (lista_de_texto[2]))
+})
 let lista_de_texto: string[] = []
 lista_de_texto = ["pepe", "anna", "juan "]
 basic.forever(function () {
